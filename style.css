@@ -13,6 +13,19 @@
     src: url(/font/source-sans-pro-v14-latin-regular.woff2);
 }
 
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0;
@@ -167,10 +180,6 @@ button.join{
 
 }
 
-h2{
-    margin: 0;
-
-}
 .course_cataloge h2{
     box-sizing: border-box;
     color: rgb(15, 17, 20);
@@ -196,3 +205,78 @@ h2{
     gap: 8px;
     font-weight: 500;
 }
+
+.business_img img{
+    height: 24px;
+}
+
+/* .network {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(232, 238, 247);
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+    position: relative;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    margin: 42px 0px 0px 0px;
+}
+
+.business_img {
+    display: flex;
+    gap: 4px;
+}
+
+.business_img p{
+    box-sizing: border-box;
+    color: rgb(91, 103, 128);
+    font-size: 14px;
+    font-family: "pro";
+}
+
+.analysis h3{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    cursor: pointer;
+    font-family: "pro";
+    font-size: 14px;
+    font-size-adjust: none;
+    font-style: normal;
+    letter-spacing: -0.048px;
+    line-height: 20px;
+}
+
+.skill_gain {
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-family: "pro";
+    font-size: 14px;
+}
+
+.skill{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-family: "pro";
+    font-size: 14px;
+}
+
+.fetch_img{
+    height: 64px;
+    width: 6px;
+}
+
+.star_two {
+    display: flex;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.begineer {
+    font-size: 14px;
+} */
