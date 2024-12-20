@@ -13,25 +13,28 @@
     src: url(/font/source-sans-pro-v14-latin-regular.woff2);
 }
 
-h2{
+@font-face {
+    font-family: "open";
+    src: url(font/opensans-700.woff2);
+}
+
+@font-face {
+    font-family: "project";
+    src: url(font/source-sans-pro-v14-latin-600.woff2);
+}
+
+@font-face {
+    font-family: "network";
+    src: url(font/source-sans-pro-v14-latin-700.woff2);
+}
+
+
+body,h2,p,h3{
     margin: 0;
     padding: 0;
 }
 
-p {
-    margin: 0;
-    padding: 0;
-}
-h3{
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    margin: 0;
-    height: 100vh;
-    
-}
 .header{
     display: flex;
     height: 56px;
@@ -43,10 +46,17 @@ body {
     right: 0;
     left: 0;
     width: 100;
+    border-bottom: solid;
+    border-bottom-color: rgb(232, 238, 247);
+    border-bottom-width: 1px;
 }
 .whole_header{
     display: flex;
     align-items: center;
+}
+.whole_header button{
+    background-color: #fff;
+    border: 2px solid transparent;
 }
 
 .header_second{
@@ -54,11 +64,10 @@ body {
     align-items: center;
 }
 
-.coursera_img{
+.coursera_img {
     width: 108px;
-    height: 16px;
     align-items: center;
-    padding:0px 12px;
+    padding:25px;
 }
 
 .hamburger {
@@ -103,8 +112,7 @@ button.join{
     display: flex;
     align-items: center;
     background-color: rgb(0, 65, 158);
-    border-color: rgb(99, 99, 99);
-    border-style: solid;
+    border: 1px solid rgb(99, 99, 99) ;
     border-image-width: 1px;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.87);
@@ -144,18 +152,24 @@ button.join{
 }
 
 .browse {
+    width: 100vw;
     background-color: rgb(218, 225, 237);
     box-sizing: border-box;
     color: rgb(55, 58, 60);
     display: block;
     line-height: 24px;
-    padding: 14px 16px;
+    padding: 14px 20px;
+    margin: -4px;
+    font-family: "pro";
 }
 
 .browse_arrow{
-   display: flex;
-   align-items: center;
-   margin-bottom: 16px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .a_browse a {
@@ -163,7 +177,21 @@ button.join{
     color: black;
 }
 
+.free_courses h2{
+    padding: 8px 8px 8px 0px;
+    box-sizing: border-box;
+    color: black;
+    display: block;
+    flex-basis: 100%;
+    line-height: 24px;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: "project";
+}
+
 .left_arrow{
+    display: flex;
+    align-items: center;
     margin: 0px 16px 0px 0px;
 }
 
@@ -177,7 +205,7 @@ button.join{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-
+    margin-bottom: 42px;
 }
 
 .course_cataloge h2{
@@ -187,12 +215,12 @@ button.join{
     font-weight: 600;
     letter-spacing: -0.06px;
     line-height: 32px;
-    margin-bottom: 24px;
-    font-family: "pro";
+    margin-bottom: 32px;
+    font-family: "project";
 }
 
 .whole_filter{
-    padding: 8px 16px;
+    padding: 8px 15px;
     display: flex ;
     align-items: center;
     appearance: button;
@@ -204,13 +232,56 @@ button.join{
     font-size: 14px;
     gap: 8px;
     font-weight: 500;
+    font-family: "project";
+    letter-spacing: 0.14px;
+}
+
+.free_button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: "project";
+    border: 1px solid  rgb(132, 149, 176);
+    padding: 0px 8px;
+    width: max-content;
+}
+
+.free_button span{
+    margin-bottom: 8px;
 }
 
 .business_img img{
     height: 24px;
+    border: 1px solid rgb(232, 238, 247);
+    border-radius: 4px;
+    padding: 2px;
 }
 
-/* .network {
+.course_business img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+}
+
+.net{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.network {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgb(255, 255, 255);
@@ -219,18 +290,21 @@ button.join{
     border-width: 2px;
     border-color: rgb(232, 238, 247);
     box-sizing: border-box;
-    display: block;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
     position: relative;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition-delay: 0s;
     transition-duration: 0.3s;
-    margin: 42px 0px 0px 0px;
+    margin-bottom: 24px;
 }
 
 .business_img {
     display: flex;
     gap: 4px;
+    align-items: center;
 }
 
 .business_img p{
@@ -238,45 +312,104 @@ button.join{
     color: rgb(91, 103, 128);
     font-size: 14px;
     font-family: "pro";
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80%;
 }
 
 .analysis h3{
     box-sizing: border-box;
     color: rgb(15, 17, 20);
     cursor: pointer;
-    font-family: "pro";
-    font-size: 14px;
+    font-family: "project";
+    font-size: 16px;
     font-size-adjust: none;
     font-style: normal;
     letter-spacing: -0.048px;
     line-height: 20px;
 }
 
+
 .skill_gain {
     box-sizing: border-box;
     color: rgb(15, 17, 20);
-    font-family: "pro";
+    font-family: "project";
     font-size: 14px;
 }
 
 .skill{
     box-sizing: border-box;
-    color: rgb(15, 17, 20);
+    color: rgb(91, 103, 128);
     font-family: "pro";
     font-size: 14px;
-}
-
-.fetch_img{
-    height: 64px;
-    width: 6px;
+    font-weight: 400;
 }
 
 .star_two {
     display: flex;
-    gap: 4px;
+    gap: 8px;
     font-size: 14px;
+}
+
+
+.product_card{
+    display: flex;
+    align-items: center;
+    font-family: "pro";
+    gap: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    row-gap: 4px;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    gap: 8 px;
+    box-sizing: border-box;
+}
+
+.star_rating{
+    display: flex;
+}
+
+.star_two svg{
+    width: 20px;
+    height: 20px;
+}
+
+.reviews{
+    color: rgb(91, 103, 128);
 }
 
 .begineer {
     font-size: 14px;
-} */
+    color: rgb(91, 103, 128);
+}
+
+.search h2{
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    padding-bottom: 24px;
+}
+
+.excel{
+    display: flex;
+    flex-direction: column;
+}
+.excel a{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(0, 86, 210);
+    font-family: "project";
+}
