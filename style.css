@@ -29,7 +29,7 @@
 }
 
 
-body,h2,p,h3{
+body,h2,p,h3,ul{
     margin: 0;
     padding: 0;
 }
@@ -488,4 +488,34 @@ button.join{
     font-family: "project";
     font-size: 20px;
     margin-bottom: 24px;
+}
+
+.english{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+}
+
+.list li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+.list a{
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(0, 86, 210); 
+    cursor: pointer;
+    font-family: "pro";
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-decoration-color: rgb(0, 86, 210);
+    text-decoration-line: underline;
+}
+
+.list span{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-family: "pro";
+    font-size: 16px;
+    line-height: 24px;  
 }
