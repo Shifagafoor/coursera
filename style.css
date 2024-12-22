@@ -784,6 +784,11 @@ a{
         height: unset;
     }
 
+    .course_business{
+        aspect-ratio: 16/9;
+        overflow: hidden;
+    }
+
     .network{
         max-width: 50%;
         flex-grow: 0;
