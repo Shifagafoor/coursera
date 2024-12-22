@@ -771,8 +771,27 @@ a{
         max-height: 74px;
         flex-direction: column;
     }
-    .started{
-        
+    .img img{
+        display: inline;
+    }
+    
+    .project{
+        flex-direction: column-reverse;
     }
 
+    .course_business img{
+        width: unset;
+        height: unset;
+    }
+
+    .network{
+        max-width: 50%;
+        flex-grow: 0;
+        flex-basis: 50%;
+    }
+    .whole_network{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
