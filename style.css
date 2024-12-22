@@ -266,7 +266,7 @@ button.join{
 
 .project {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .net{
@@ -519,4 +519,260 @@ button.join{
     font-family: "pro";
     font-size: 16px;
     line-height: 24px;  
+}
+
+.questions{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 18.75px;
+    max-width: 90%;
+}
+
+.free_questions{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin-top: 105px;
+    margin-bottom: 106px;
+    padding: 8px;
+    margin-inline: -4px;
+}
+
+.online_courses{
+    padding-bottom: 75px;
+}
+
+.online_courses h2{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    font-family: "yag";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.button_faq{
+    box-sizing: border-box;
+    color: color rgb(55, 58, 60);
+    padding-inline: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    padding: 12px;
+    margin-bottom: 10px;
+    height: 85px;
+    align-items: center;
+    display: flex;
+}
+
+.faq h3{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    cursor: pointer;
+    font-family: "regular";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 8px;
+    
+}
+
+.arrow_{
+    box-sizing: border-box;
+    color: rgb(54, 59, 66);
+    fill: rgb(42, 115, 204);
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.content_course{
+    box-sizing: border-box;
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    font-family: "regular";
+    line-height: 24px;
+}
+
+.topics{
+    box-sizing: border-box;
+    line-height: 24px;
+    margin-bottom: 75px;
+}
+
+.topics h2{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-family: "project";
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.arts{
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+    box-sizing: border-box;
+    display: flex;
+    color: rgb(31, 31, 31);
+    flex-wrap: wrap;
+    height: 88px;
+    overflow: hidden;
+    margin: 0px 8px 8px 0px;
+    width: 140px;
+}
+
+.science {
+    padding: 0px 10px;
+}
+
+.computer{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: "network";
+    font-weight: 700;
+}
+
+.science span{
+    box-sizing: border-box;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "pro";
+}
+
+.started{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    line-height: 24px;
+    padding: 80px 16px 8px 16px;
+    background-color: rgb(245, 245, 245);
+}
+
+.aws{
+    padding:0px 20px;
+    margin-bottom: 83px;
+}
+
+.ai p{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 28px;
+    font-family: "project";
+}
+
+.ai ul{
+    margin: 0px 18p 16px 0px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 7px;
+}
+
+a{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "pro";
+    color: rgb(31, 31, 31);
+}
+
+.learn{
+    background-color: rgb(245, 245, 245);
+    padding-inline: 16px;
+}
+
+.anywhere{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    font-family: "project";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.apple{
+    display: flex;
+}
+
+.apple_img{
+    margin: 0px 16px 0px 0px;
+}
+
+.play_img{
+    margin: 0px 16px 0px 0px;
+}
+
+.certified img{
+    margin-top: 25px ;
+    margin-inline: 34.500px;
+}
+
+.apps{
+    background-color: rgb(245, 245, 245);
+    padding-inline: 16px;
+}
+
+.facebook{
+    margin-inline: 41.500;
+    padding: 16px 0px;
+}
+
+.type_apps img{
+    margin-left: 20px;
+}
+
+.facebook ul{
+    display: flex;
+    justify-content: center;
+}
+
+.copy{
+    box-sizing: border-box;
+    color: rgb(55, 58, 60);
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "pro";
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .arts {
+        width: 200px;
+        max-height: 74px;
+        flex-direction: column;
+    }
+    .started{
+        
+    }
+
 }
