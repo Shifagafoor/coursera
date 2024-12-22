@@ -480,6 +480,7 @@ button.join{
     line-height: 24px;
     max-width: 1110px;
     padding-inline: 20px;
+    padding-bottom: 36px;
 }
 
 .popular h2{
