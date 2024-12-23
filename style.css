@@ -275,7 +275,7 @@ button.join{
     gap: 8px;
 }
 
-.business {
+/* .business {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -292,35 +292,7 @@ button.join{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 8px;
-    position: relative;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    transition-delay: 0s;
-    transition-duration: 0.3s;
-    margin-bottom: 24px;
-}
-
-.business_img {
-    display: flex;
-    gap: 4px;
-    align-items: center;
-}
-
-.business_img p{
-    box-sizing: border-box;
-    color: rgb(91, 103, 128);
-    font-size: 14px;
-    font-family: "pro";
-    overflow-y: hidden;
-    overflow-x: hidden;
-    text-align: left;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 80%;
-}
-
-.analysis h3{
+    gap: 8px;.analysis h3{
     box-sizing: border-box;
     color: rgb(15, 17, 20);
     cursor: pointer;
@@ -390,6 +362,122 @@ button.join{
     font-size: 14px;
     color: rgb(91, 103, 128);
 }
+    padding: 8px;
+    position: relative;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    margin-bottom: 24px;
+}
+
+.business_img {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.business_img p{
+    box-sizing: border-box;
+    color: rgb(91, 103, 128);
+    font-size: 14px;
+    font-family: "pro";
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80%;
+} */
+
+/* .analysis h3{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    cursor: pointer;
+    font-family: "project";
+    font-size: 16px;
+    font-size-adjust: none;
+    font-style: normal;
+    letter-spacing: -0.048px;
+    line-height: 20px;
+}
+
+
+.skill_gain {
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-family: "project";
+    font-size: 14px;
+}
+
+.skill{
+    box-sizing: border-box;
+    color: rgb(91, 103, 128);
+    font-family: "pro";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.star_two {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+}
+
+
+.product_card{
+    display: flex;
+    align-items: center;
+    font-family: "pro";
+    gap: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    row-gap: 4px;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    gap: 8 px;
+    box-sizing: border-box;
+}
+
+.star_rating{
+    display: flex;
+}
+
+.star_two svg{
+    width: 20px;
+    height: 20px;
+}
+
+.reviews{
+    color: rgb(91, 103, 128);
+}
+
+.begineer {
+    font-size: 14px;
+    color: rgb(91, 103, 128);
+} */
+
+.whole{
+    padding: 6px;
+}
+
+.english_whole ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.english_whole li{
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.
 
 .search h2{
     box-sizing: border-box;
