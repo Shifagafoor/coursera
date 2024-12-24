@@ -594,6 +594,14 @@ button.join{
 
 .star_rating{
     display: flex;
+    gap: 4px;
+}
+
+.rating{
+    font-weight: 600;
+    letter-spacing: 0.048px;
+    font-family: "project";
+    font-size: 16px;
 }
 
 .star_two svg{
