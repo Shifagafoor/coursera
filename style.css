@@ -290,6 +290,7 @@ button.join{
     flex-direction: column;
     gap: 8px;
     flex: 1;
+    width: 79%;
 }
 
 /* .business {
@@ -536,7 +537,8 @@ button.join{
     text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 80%;
+    /* max-width: 80%; */
+    max-width: 100%;
 }
 
 .analysis h3{
