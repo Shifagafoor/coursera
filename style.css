@@ -236,7 +236,7 @@ button.join{
     letter-spacing: 0.14px;
 }
 
-.free_button {
+/* .free_button {
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
     font-family: "project";
@@ -247,7 +247,7 @@ button.join{
 
 .free_button span{
     margin-bottom: 8px;
-}
+} */
 
 .business_img img{
     height: 24px;
@@ -477,7 +477,114 @@ button.join{
     flex-basis: 100%;
 }
 
-.
+.common{
+    padding: 0px 0px 24px 0px;
+}
+
+.process{
+    padding: 8px;
+    border: 2px solid rgb(232, 238, 247);
+    border-radius: 16px;
+}
+
+.workplace{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.free_button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: "project";
+    border: 1px solid  rgb(132, 149, 176);
+    padding: 0px 8px;
+    width: max-content;
+}
+
+
+.business_img p{
+    box-sizing: border-box;
+    color: rgb(91, 103, 128);
+    font-size: 14px;
+    font-family: "pro";
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80%;
+}
+
+.analysis h3{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    cursor: pointer;
+    font-family: "project";
+    font-size: 16px;
+    font-size-adjust: none;
+    font-style: normal;
+    letter-spacing: -0.048px;
+    line-height: 20px;
+}
+
+.product_card{
+    display: flex;
+    align-items: center;
+    font-family: "pro";
+    gap: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    row-gap: 4px;
+}
+
+.skill_gain {
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-family: "project";
+    font-size: 14px;
+}
+
+.skill{
+    box-sizing: border-box;
+    color: rgb(91, 103, 128);
+    font-family: "pro";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.star_two {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    gap: 8 px;
+    box-sizing: border-box;
+}
+
+.star_rating{
+    display: flex;
+}
+
+.star_two svg{
+    width: 20px;
+    height: 20px;
+}
+
+.reviews{
+    color: rgb(91, 103, 128);
+}
+
+.begineer {
+    font-size: 14px;
+    color: rgb(91, 103, 128);
+}
 
 .search h2{
     box-sizing: border-box;
@@ -486,6 +593,12 @@ button.join{
     letter-spacing: -0.1px;
     padding: 24px 6px;
     font-family: "project";
+}
+
+.free_learn{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 16px;
 }
 
 .excel{
@@ -753,7 +866,11 @@ button.join{
     color: rgb(55, 58, 60);
     line-height: 24px;
     padding: 80px 16px 8px 16px;
+}
+
+.footer{
     background-color: rgb(245, 245, 245);
+
 }
 
 .aws{
@@ -790,7 +907,6 @@ a{
 }
 
 .learn{
-    background-color: rgb(245, 245, 245);
     padding-inline: 16px;
 }
 
@@ -822,14 +938,10 @@ a{
 }
 
 .apps{
-    background-color: rgb(245, 245, 245);
-    padding-inline: 16px;
-}
-
-.facebook{
-    margin-inline: 41.500;
+    margin-inline: 41.500px;
     padding: 16px 0px;
 }
+
 
 .type_apps img{
     margin-left: 20px;
@@ -849,6 +961,9 @@ a{
     display: flex;
     justify-content: center;
 }
+
+
+
 .img img{
     display: none;
 }
