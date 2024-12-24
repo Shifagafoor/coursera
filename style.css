@@ -256,6 +256,11 @@ button.join{
     padding: 2px;
 }
 
+.business_img {
+    display: flex;
+    align-items: center;
+}
+
 .course_business img{
     width: 64px;
     height: 64px;
