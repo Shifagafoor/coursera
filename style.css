@@ -992,19 +992,17 @@ a{
         height: unset;
     }
 
-    .course_business{
-        aspect-ratio: 16/9;
-        overflow: hidden;
-    }
-
-    .network{
-        max-width: 50%;
-        flex-grow: 0;
-        flex-basis: 50%;
-    }
-    .whole_network{
+    .process{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        box-sizing: border-box;
     }
+    .english_whole ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
 }
