@@ -132,23 +132,23 @@ button.join{
 
 }
 .search_button input {
-        appearance: auto;
-        background-attachment: scroll;
-        background-color: rgb(255, 255, 255);
-        background-size: auto;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius :0px;
-        box-sizing: border-box;
-        color: rgb(0, 0, 0);
-        cursor: text;
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 400;
-        height: 38px;
-        line-height: 20px;
-        width: 100%; 
-        padding: 0px 10px 0px 36px;
-        border: none;
+     appearance: auto;
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius :0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: text;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 20px;
+    width: 100%; 
+    padding: 0px 10px 0px 36px;
+    border: none;
 }
 
 .browse {
@@ -175,6 +175,7 @@ button.join{
 .a_browse a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
 
 .free_courses h2{
@@ -236,18 +237,6 @@ button.join{
     letter-spacing: 0.14px;
 }
 
-/* .free_button {
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    font-family: "project";
-    border: 1px solid  rgb(132, 149, 176);
-    padding: 0px 8px;
-    width: max-content;
-}
-
-.free_button span{
-    margin-bottom: 8px;
-} */
 
 .business_img img{
     height: 24px;
