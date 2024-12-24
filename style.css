@@ -220,7 +220,7 @@ button.join{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-bottom: 42px;
+    margin-bottom: 34px;
 }
 
 .course_cataloge h2{
@@ -269,6 +269,7 @@ button.join{
 .business_img {
     display: flex;
     align-items: center;
+    gap: 4px;
 }
 
 .course_business img{
@@ -478,6 +479,11 @@ button.join{
 
 .whole{
     padding: 6px 0px;
+}
+
+.whole_double_free{
+    display: flex;
+    justify-content: space-between;
 }
 
 .english_whole ul{
