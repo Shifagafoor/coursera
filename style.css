@@ -259,6 +259,13 @@ button.join{
     padding: 2px;
 }
 
+.business {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
 .business_img {
     display: flex;
     align-items: center;
@@ -281,6 +288,7 @@ button.join{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    flex: 1;
 }
 
 /* .business {
