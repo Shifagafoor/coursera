@@ -189,6 +189,9 @@ button.join{
     font-size: 20px;
     font-family: "project";
 }
+.free_courses p{
+    padding: 8px 0px;
+}
 
 .left_arrow{
     display: flex;
