@@ -167,7 +167,7 @@ button.join{
     margin-top: 2px;
     display: flex;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 24px;
 }
@@ -176,6 +176,10 @@ button.join{
     text-decoration: none;
     color: black;
     font-size: 16px;
+}
+
+.free_courses {
+    width: calc(100% + 8px);
 }
 
 .free_courses h2{
@@ -188,9 +192,16 @@ button.join{
     max-width: 100%;
     font-size: 20px;
     font-family: "project";
+    letter-spacing:-0.1px;
 }
 .free_courses p{
     padding: 8px 0px;
+    font-family: "pro";
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 100%;
+    font-size: 16px;
+
 }
 
 .left_arrow{
