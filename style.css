@@ -501,7 +501,7 @@ button.join{
 }
 
 .common{
-    padding: 0px 0px 17px 0px;
+    padding: 0px 0px 24px 0px;
 }
 
 .process{
@@ -577,6 +577,7 @@ button.join{
     font-family: "pro";
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
 }
 
 .star_two {
@@ -621,7 +622,7 @@ button.join{
     color: rgb(91, 103, 128);
     display: flex;
     align-items: center;
-    height: 20px;
+    line-height: 20px;
 }
 
 .search h2{
