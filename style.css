@@ -583,6 +583,7 @@ button.join{
     display: flex;
     gap: 4px;
     font-size: 14px;
+    align-items: center;
 }
 
 .star{
