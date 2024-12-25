@@ -584,6 +584,7 @@ button.join{
     gap: 4px;
     font-size: 14px;
     align-items: center;
+    height: 20px;
 }
 
 .star{
@@ -596,6 +597,7 @@ button.join{
 .star_rating{
     display: flex;
     gap: 4px;
+    align-items: center;
 }
 
 .rating{
@@ -617,6 +619,9 @@ button.join{
 .begineer {
     font-size: 14px;
     color: rgb(91, 103, 128);
+    display: flex;
+    align-items: center;
+    height: 20px;
 }
 
 .search h2{
