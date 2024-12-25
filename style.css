@@ -501,7 +501,7 @@ button.join{
 }
 
 .common{
-    padding: 0px 0px 24px 0px;
+    padding: 0px 0px 17px 0px;
 }
 
 .process{
@@ -629,7 +629,7 @@ button.join{
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.1px;
-    padding: 24px 6px;
+    padding: 24px 0px;
     font-family: "project";
 }
 
@@ -648,10 +648,11 @@ button.join{
     color: rgb(55, 58, 60);
     font-size: 16px;
     line-height: 24px;
-    padding: 6px;
+    padding: 6px 0px;
     text-decoration: none;
     color: rgb(0, 86, 210);
     font-family: "project";
+    letter-spacing: -0.048px;
 }
 
 .numbers{
@@ -933,7 +934,7 @@ button.join{
 
 li{
     list-style-type: none;
-    margin-bottom: 7px;
+    /* margin-bottom: 7px; */
 }
 
 a{
