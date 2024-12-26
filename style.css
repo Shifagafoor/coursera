@@ -215,6 +215,7 @@ button.join{
     font-size: 16px;
     padding: 36px 16px;
     padding-bottom: 0px;
+    margin-bottom: 16px;
 }
 
 .courses{
@@ -480,9 +481,7 @@ button.join{
     color: rgb(91, 103, 128);
 } */
 
-.whole{
-    padding: 6px 0px;
-}
+
 
 .whole_double_free{
     display: flex;
@@ -650,13 +649,14 @@ button.join{
 .excel{
     display: flex;
     flex-direction: column;
+    margin: -6px;
 }
 .excel a{
     box-sizing: border-box;
     color: rgb(55, 58, 60);
     font-size: 16px;
     line-height: 24px;
-    padding: 6px 0px;
+    padding: 6px 6px;
     text-decoration: none;
     color: rgb(0, 86, 210);
     font-family: "project";
@@ -683,10 +683,10 @@ button.join{
 
 .count a{
     display: flex;
-    height: 16px;
-    width: 16px;
+    height: 36px;
+    width: 36px;
+    text-decoration: underline;
     font-weight: 700;
-        
     align-items: center;
     background-attachment: scroll;
     background-clip: border-box;
