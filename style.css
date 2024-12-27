@@ -665,7 +665,7 @@ button.join{
     border: 1px solid rgb(224, 224, 224);
     padding: 12px;
     margin-bottom: 10px;
-    height: 85px;
+    /* height: 85px; */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -683,18 +683,38 @@ button.join{
     
 }
 
+.subject_p{
+    box-sizing: border-box;
+    color: rgb(101, 101, 101);
+    font-size: 16px;
+    font-family: "regular";
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.subject_p a{
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    font-family: "regular";
+    line-height: 22px;
+    margin-bottom: 20px;
+    overflow-wrap :break-word;
+    text-decoration-line :underline;
+    text-decoration-style :solid;
+    text-decoration-color :rgb(0, 98, 228);
+    color: rgb(0, 98, 228);
+}
+
+
 .variety{
-    display: none;
     height: 612px;
     overflow: hidden;
     transition: height 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     padding: 24px;
 }
-
-.faq .variety{
-    display: block;
+.faq.show .variety{
+    display: none;
 }
-
 
 
 .arrow_{
