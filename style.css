@@ -224,7 +224,7 @@ button.join{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
 }
 
 .course_cataloge h2{
@@ -298,193 +298,6 @@ button.join{
     width: 75%;
 }
 
-/* .business {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.network {
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 16px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(232, 238, 247);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;.analysis h3{
-    box-sizing: border-box;
-    color: rgb(15, 17, 20);
-    cursor: pointer;
-    font-family: "project";
-    font-size: 16px;
-    font-size-adjust: none;
-    font-style: normal;
-    letter-spacing: -0.048px;
-    line-height: 20px;
-}
-
-
-.skill_gain {
-    box-sizing: border-box;
-    color: rgb(15, 17, 20);
-    font-family: "project";
-    font-size: 14px;
-}
-
-.skill{
-    box-sizing: border-box;
-    color: rgb(91, 103, 128);
-    font-family: "pro";
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.star_two {
-    display: flex;
-    gap: 8px;
-    font-size: 14px;
-}
-
-
-.product_card{
-    display: flex;
-    align-items: center;
-    font-family: "pro";
-    gap: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 24px;
-    row-gap: 4px;
-}
-
-.star{
-    display: flex;
-    flex-direction: column;
-    gap: 8 px;
-    box-sizing: border-box;
-}
-
-.star_rating{
-    display: flex;
-}
-
-.star_two svg{
-    width: 20px;
-    height: 20px;
-}
-
-.reviews{
-    color: rgb(91, 103, 128);
-}
-
-.begineer {
-    font-size: 14px;
-    color: rgb(91, 103, 128);
-}
-    padding: 8px;
-    position: relative;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    transition-delay: 0s;
-    transition-duration: 0.3s;
-    margin-bottom: 24px;
-}
-
-.business_img {
-    display: flex;
-    gap: 4px;
-    align-items: center;
-}
-
-.business_img p{
-    box-sizing: border-box;
-    color: rgb(91, 103, 128);
-    font-size: 14px;
-    font-family: "pro";
-    overflow-y: hidden;
-    overflow-x: hidden;
-    text-align: left;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 80%;
-} */
-
-/* .analysis h3{
-    box-sizing: border-box;
-    color: rgb(15, 17, 20);
-    cursor: pointer;
-    font-family: "project";
-    font-size: 16px;
-    font-size-adjust: none;
-    font-style: normal;
-    letter-spacing: -0.048px;
-    line-height: 20px;
-}
-
-
-.skill_gain {
-    box-sizing: border-box;
-    color: rgb(15, 17, 20);
-    font-family: "project";
-    font-size: 14px;
-}
-
-.skill{
-    box-sizing: border-box;
-    color: rgb(91, 103, 128);
-    font-family: "pro";
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.star_two {
-    display: flex;
-    gap: 8px;
-    font-size: 14px;
-}
-
-
-.product_card{
-    display: flex;
-    align-items: center;
-    font-family: "pro";
-    gap: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 24px;
-    row-gap: 4px;
-}
-
-.star{
-    display: flex;
-    flex-direction: column;
-    gap: 8 px;
-    box-sizing: border-box;
-}
-
-.star_rating{
-    display: flex;
-}
-
-.star_two svg{
-    width: 20px;
-    height: 20px;
-}
-
-.reviews{
-    color: rgb(91, 103, 128);
-}
-
-.begineer {
-    font-size: 14px;
-    color: rgb(91, 103, 128);
-} */
-
-
-
 .whole_double_free{
     display: flex;
     justify-content: space-between;
@@ -495,7 +308,6 @@ button.join{
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    /* margin-bottom: 1rem; */
 }
 
 .english_whole li{
@@ -645,7 +457,6 @@ button.join{
 .free_learn{
     display: flex;
     flex-direction: column;
-    padding-inline: 16px;
 }
 
 .excel{
@@ -653,7 +464,7 @@ button.join{
     flex-direction: column;
     margin: -6px;
 }
-.excel a{
+.excel_a {
     box-sizing: border-box;
     color: rgb(55, 58, 60);
     font-size: 16px;
@@ -663,6 +474,13 @@ button.join{
     color: rgb(0, 86, 210);
     font-family: "project";
     letter-spacing: -0.048px;
+}
+
+.excel_a a{
+    color: rgb(0, 86, 210);
+    font-family: "project";
+    letter-spacing: -0.048px;
+    font-size: 16px;
 }
 
 .numbers{
@@ -832,6 +650,16 @@ button.join{
     flex-direction: column;
 }
 
+.there{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-bottom: 10px;
+    height: 85px;
+    align-items: center;
+    display: flex;
+}
+
 .faq{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(224, 224, 224);
@@ -840,6 +668,7 @@ button.join{
     height: 85px;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .faq h3{
@@ -853,6 +682,20 @@ button.join{
     padding-left: 8px;
     
 }
+
+.variety{
+    display: none;
+    height: 612px;
+    overflow: hidden;
+    transition: height 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    padding: 24px;
+}
+
+.faq .variety{
+    display: block;
+}
+
+
 
 .arrow_{
     box-sizing: border-box;
@@ -1110,7 +953,7 @@ a{
         flex-wrap: wrap;
         box-sizing: border-box;
     }
-    .excel a{
+    .excel{
         flex-grow: 0;
         max-width: 50%;
         flex-basis: 50%;
