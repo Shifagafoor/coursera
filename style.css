@@ -683,13 +683,17 @@ button.join{
     
 }
 
-.subject_p{
+.subject_p {
     box-sizing: border-box;
     color: rgb(101, 101, 101);
     font-size: 16px;
     font-family: "regular";
     line-height: 22px;
     margin-bottom: 20px;
+}
+
+.faq.show .arrow_{
+    transform: rotateZ(-45deg);
 }
 
 .subject_p a{
@@ -707,7 +711,6 @@ button.join{
 
 
 .variety{
-    height: 612px;
     overflow: hidden;
     transition: height 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     padding: 24px;
@@ -904,6 +907,11 @@ a{
         max-height: 74px;
         flex-direction: column;
     }
+
+    .science{
+        width: 115px;
+        padding: 10px;
+    }
     .img img{
         display: inline;
     }
@@ -920,12 +928,12 @@ a{
         flex: 1 1 0%;
         gap: 16px;
     }
-.product_card{
-    align-items: end;
-}
-.common{
-    height: 100%;
-}
+    .product_card{
+        align-items: end;
+    }
+    .common{
+        height: 100%;
+    }
     .process{
         width: 100%;
         flex-wrap: wrap;
@@ -972,10 +980,37 @@ a{
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
+        flex-direction: row;
     }
-    .excel{
+    .excel_a{
         flex-grow: 0;
         max-width: 50%;
         flex-basis: 50%;
     }
+    .questions {
+        margin: 0px 30px;
+    }
+    .aws {
+        flex-grow: 0;
+        max-width: 25%;
+        flex-basis: 25%;
+    }
+    .started{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .aws ul{
+        margin-right: 20px;
+    }
+    .footer_whole{
+        flex-grow: 0;
+        max-width: 25%;
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: row;
+    }
 }
+
+
