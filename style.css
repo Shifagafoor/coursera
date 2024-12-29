@@ -899,6 +899,10 @@ a {
   display: none;
 }
 
+.header_individual{
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
   .learn {
     display: none;
@@ -1039,9 +1043,13 @@ a {
     padding: 16px 0;
   }
 
-.filter_by{
-  display: none;
-}
+  .filter_by{
+    display: none;
+  }
+
+  .header_individual{
+    display: none;
+  }
 
 }
 
@@ -1083,6 +1091,9 @@ a {
   }
 
   .filter_by{
+    display: none;
+  }
+  .header_individual{
     display: none;
   }
 
@@ -1251,16 +1262,26 @@ a {
   .questions{
     margin: 0px 48px;
   }
+  .header_individual{
+    display: none;
+  }
 }
 
 @media screen and (min-width:1036px) {
   .common{
     padding: 24px 6px;
   }
+  .header_individual{
+    display: none;
+  }
 
 }
 @media screen and (min-width:1061px) {
   .header{
     display: none;
+  }
+
+  .header_individual{
+    display: inline;
   }
 }
