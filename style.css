@@ -667,7 +667,7 @@ button.join {
   padding: 12px;
   margin-bottom: 10px;
   /* height: 85px; */
-  align-items: center;
+  /* align-items: center; */
   display: flex;
   flex-direction: column;
 }
@@ -1236,6 +1236,21 @@ a {
     padding: 24px 0px;
   }
 
+  .english_whole ul {
+    margin-bottom: 44px;
+  }
+
+  .content_course{
+    max-width: 747px;
+  }
+
+  .summary{
+    padding-inline: 48px;
+  }
+
+  .questions{
+    margin: 0px 48px;
+  }
 }
 
 @media screen and (min-width:1036px) {
