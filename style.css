@@ -1343,17 +1343,19 @@ a {
     height: 32px;
   }
   .container_login{
-    display: flex;
+    display: flex; 
+    padding:20px 48px; 
+    align-items: center;  
   }
+
   .exploew_free{
     display: flex;
   }
+  
   .form{
     display: flex;
   }
-  .course{
-    
-  }
+ 
 }
 
 
