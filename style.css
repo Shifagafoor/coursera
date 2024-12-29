@@ -1231,5 +1231,16 @@ a {
     max-width: 33.333333%;
     flex-basis: 33.333333%;
   }
-  
+
+  .common{
+    padding: 24px 0px;
+  }
+
+}
+
+@media screen and (min-width:1036px) {
+  .common{
+    padding: 24px 6px;
+  }
+
 }
