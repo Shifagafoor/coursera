@@ -1312,7 +1312,7 @@ a {
 
   .banner a{
     vertical-align: baseline;
-    display: inline;
+    display: block;
     margin: 0 8px;
     padding: 0 8px;
     line-height: 40px;
@@ -1320,6 +1320,7 @@ a {
     color: #ffffff;
     box-sizing: border-box;
     font-weight: 600;
+    height: 40px;
   }
 
   .banner li:first-child a{
@@ -1337,6 +1338,8 @@ a {
   .banner li:first-child a .span_one{
     color: #ffff;
     font-weight: 600;
+    font-family: "project";
+
   }
 
   .span_one{
@@ -1344,21 +1347,47 @@ a {
     color: rgb(232, 238, 247);
     font-size: 16px;
     font-weight: 400;
-    font-family: "project";
     letter-spacing: normal;
   }
   .coursera_img_two{
     width: 127px;
-    height: 32px;
+    /* height: 32px; */
+    padding-right: 16px;
   }
   .container_login{
     display: flex; 
     padding:0px 48px; 
-    align-items: center;  
+    align-items: center;
   }
 
-  .exploew_free{
+  .explore_free{
     display: flex;
+    box-sizing: border-box;
+    line-height: 21px;
+    align-items: center;
+    min-width: 200px;
+  }
+
+  .explore{
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+    gap: 8px;
+  }
+
+  .explore-btn{
+    display: flex;
+    align-items: center;
+    appearance: button;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 86, 210);
+    justify-content: center;
+    border-radius: 4px;
+    line-height: 21px;
+    padding: 6px 16px;
+    color: rgb(0, 86, 210);
+    gap: 8px;
+
   }
 
   .form{
@@ -1373,5 +1402,55 @@ a {
     height: 65px;
     padding: 20px 0;
   }
-}
 
+  .explore span{
+    box-sizing: border-box;
+    color: rgb(0, 86, 210);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+    font-family: "project";
+  }
+
+  .form{
+      width: 348px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(219, 224, 225);
+      border-radius: 24px;
+      color: rgb(99, 103, 107);
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      max-width: 600px;
+      color: rgb(219, 224, 225);
+  }
+
+  .form input{
+    border: 1px solid transparent;
+    width: 134px;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgb(99, 103, 107);
+    font-family: "pro";
+  }
+  .search-btn{
+    position: absolute;
+    top: 3;
+    right: 3px;
+    height: 16px;
+    width: 16px;
+    padding: 8px;
+    margin-right: 4px;
+    background-color: rgb(0, 86, 210);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+  .free_one{
+
+  }
+}
