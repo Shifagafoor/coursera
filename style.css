@@ -1319,15 +1319,24 @@ a {
     font-size: 16px;
     color: #ffffff;
     box-sizing: border-box;
-    /* border-bottom: 6px solid #ffffff; */
     font-weight: 600;
   }
 
+  .banner li:first-child a{
+    border-bottom: 6px solid #ffffff;
+   
+  }
   .span_two{
     box-sizing: border-box;
     color: rgb(232, 238, 247);
     font-size: 16px;
     font-weight: 400;
+    font-family: pro;
+  }
+
+  .banner li:first-child a .span_one{
+    color: #ffff;
+    font-weight: 600;
   }
 
   .span_one{
@@ -1335,7 +1344,7 @@ a {
     color: rgb(232, 238, 247);
     font-size: 16px;
     font-weight: 400;
-    font-family: "pro";
+    font-family: "project";
     letter-spacing: normal;
   }
   .coursera_img_two{
@@ -1344,7 +1353,7 @@ a {
   }
   .container_login{
     display: flex; 
-    padding:20px 48px; 
+    padding:0px 48px; 
     align-items: center;  
   }
 
@@ -1356,5 +1365,13 @@ a {
     display: flex;
   }
  
+  .careers ul{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 65px;
+    padding: 20px 0;
+  }
 }
 
