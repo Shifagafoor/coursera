@@ -268,7 +268,7 @@ button.join {
   padding: 2px;
 }
 
-.business {
+.business_one {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -905,6 +905,23 @@ a {
   display: none;
 }
 
+.close{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.close h2{
+  color: rgb(15, 17, 20);
+  letter-spacing: 0.1px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  font-family: "project";
+}
+
 @media screen and (min-width: 600px) {
   .learn {
     display: none;
@@ -1103,7 +1120,7 @@ a {
 
 @media screen and (min-width: 1024px) {
   .header_there{
-    padding: 4px 48px 4px 49px;
+    padding: 4px 48px 4px 48px;
   }
 
   .search_items{
@@ -1131,6 +1148,7 @@ a {
 
   .filter_by{
     display: block;
+  
   }
   .subject h3{
     display: flex;
@@ -1156,9 +1174,18 @@ a {
 
   }
 
-.computer_div{
-  display: flex;
-}
+  .computer_div{
+    display: flex;
+  }
+
+  .whole_business{
+    display: grid;
+    grid-template-columns: 223px;
+    row-gap: 6px;
+    margin-top: 4px;
+    line-height: 24px;
+    flex-wrap: wrap;
+  }
 
   .business{
     box-sizing: border-box;
@@ -1170,7 +1197,6 @@ a {
     flex-wrap: wrap;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 4px;
     row-gap: 4px;
   }
 
@@ -1179,20 +1205,23 @@ a {
     color: rgb(55, 58, 60);
     font-size: 16px;
     line-height: 24px;
+    /* min-width: max-content; */
   }
 
   .label{
-    align-items: center;
     box-sizing: border-box;
     color: rgb(55, 58, 60);
     column-gap: 12px;
     display: flex;
     cursor: pointer;
     word-break: break-word;
+    height: 24px;
   }
+  
   .checkbox input{
     width: 24px;
     height: 24px;
+    margin: 0;
   }
   .number{
     box-sizing: border-box;
@@ -1267,6 +1296,9 @@ a {
   .header_individual{
     display: none;
   }
+   .filter_two {
+    display: none;
+  }
 }
 
 @media screen and (min-width:1036px) {
@@ -1274,6 +1306,9 @@ a {
     padding: 24px 6px;
   }
   .header_individual{
+    display: none;
+  }
+  .filter_two {
     display: none;
   }
 
@@ -1490,7 +1525,11 @@ a {
   .topics{
     margin: 0px 26.938px 75px 26.938px;
   }
-
+.explore_free_course{
+  flex-grow: 0;
+  flex-basis: 75%;
+  max-width: 75%;
+}
 }
 
 
@@ -1499,7 +1538,9 @@ a {
     max-width: 1116px;
     margin: 0 auto;
   }
-
+  .apps{
+    margin-inline: 1px;
+  }
   .footer_whole{
     max-width: 1440px;
     margin: 0 auto;
@@ -1535,5 +1576,12 @@ a {
     margin: 0 auto;
     display: flex;
     padding-inline: 148px;
+  }
+  .apps{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .filter_two {
+    display: none;
   }
 }
