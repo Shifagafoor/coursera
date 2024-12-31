@@ -156,10 +156,12 @@ button.join {
   padding: 0px 10px 0px 36px;
   border: none;
 }
+.whole_browse{
+  background-color: rgb(218, 225, 237);
+}
 
 .browse {
   width: 100vw;
-  background-color: rgb(218, 225, 237);
   box-sizing: border-box;
   color: rgb(55, 58, 60);
   display: block;
@@ -1494,7 +1496,6 @@ a {
 
 @media screen and (min-width:1440px) {
   .questions{
-    /* margin-inline: 162px; */
     max-width: 1116px;
     margin: 0 auto;
   }
@@ -1511,5 +1512,28 @@ a {
   .play_img{
     padding-bottom: 51.828px;
   }
-}
+  .universities{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .container_login{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .browse{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
+  .course_div {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .summary{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding-inline: 148px;
+  }
+}
