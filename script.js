@@ -11,5 +11,13 @@ const filter_two = document.querySelector('.filter_two')
 
 filterClick.addEventListener('click', () => {
     console.log('click')
-        filter_two.classList.toggle('filter_two_active')
+        filter_two.classList.add('filter_two_active')
 }) 
+
+const close_span = document.querySelector('.close_span')
+
+close_span.addEventListener('click', () => {
+    console.log('remove')
+        filter_two.classList.remove('filter_two_active') 
+})
+

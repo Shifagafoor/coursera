@@ -1023,7 +1023,7 @@ button.clear_all{
 }
 
 .apply_clear{
-    /* position: fixed; */
+    position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -1053,7 +1053,6 @@ button.clear_all{
   height: 100%;
   z-index: 4000;
   display: initial;
-  padding: 16px 16px 80px;
 }
 
 

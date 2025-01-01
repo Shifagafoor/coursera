@@ -1,0 +1,25 @@
+{
+    "courses": [
+        {
+            "id":1,
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/59/630408b17e41429a019ada61f22bc8/Courses-Project-images-06.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "image_title":"Coursera Project Network",
+            "main_title":"Business Analysis & Process Management",
+            "skills_gain":"Business Analysis, Business Process Management",
+            "rating":"4.4",
+            "reviews":"5.6K",
+            "begineer": "Beginner · Guided Project · Less Than 2 Hours",
+            "language":"english",
+            "subject":"Business",
+            "learning_product":"courses",
+            "level":"Beginner",
+            "duration":"Less Than 2 Hours",
+            "skills":"Leadership and Management"
+        }
+
+
+
+
+    ]
+}
