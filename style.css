@@ -1213,7 +1213,6 @@ a {
     display: flex;
     cursor: pointer;
     word-break: break-word;
-    height: 24px;
   }
   
   .checkbox input{
@@ -1243,6 +1242,8 @@ a {
 
   .tech{
     margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: 223px;
   }
 
   .number_p{
