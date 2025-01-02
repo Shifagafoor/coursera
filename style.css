@@ -1728,7 +1728,95 @@ button.clear_all{
     margin-bottom: 4px;
   }
 
+  .goals{
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .earn_degree{
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+  }
 
+  .earn h2{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-family: "yag";
+  }
+
+  span.earn_a{
+    background: none;
+    border: none;
+    display: block;
+    color: rgb(31, 31, 31);
+    padding: 5px 24px;
+    text-align: left;
+    position: relative;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  .earn_span span{
+    color:  rgb(31, 31, 31);
+  }
+
+  button.earn_span{
+    background: none;
+    border: none;
+    display: block;
+    width: 328px;
+    color: rgb(31, 31, 31);
+    padding: 5px 24px;
+    text-align: left;
+    position: relative;
+    cursor: default;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+  }
+
+  .earn{
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    padding: 24px 24px 5px 24px;
+    font-family: "yag";
+  }
+
+  span.new_career{
+    border-radius: 4px;
+    text-transform: none;
+    max-width: 320px;
+    min-width: unset;
+    transition: none;
+    box-sizing: border-box;
+    color: rgb(0, 86, 210);
+    box-shadow: inset 0 0 0 1px #0056d2;
+    padding: 8px 16px;
+    letter-spacing: 0.14px;
+    border: 1px solid rgb(0, 86, 210);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    max-width: 320px;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  .goal_active{
+    
+  }
 }
 
 
