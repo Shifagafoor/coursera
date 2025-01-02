@@ -43,7 +43,7 @@ fetch('./coursera.json')
                             <div class="net">
                                 <div class="business_one">
                                     <div class="business_img">
-                                        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/36/18a6102bea45b280d5f182141bb441/uc-chile360x360.png?auto=format%2Ccompress&amp;dpr=3&amp;w=24&amp;h=24" alt="">
+                                        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/36/18a6102bea45b280d5f182141bb441/uc-chile360x360.png?auto=format%2Ccompress&amp;>
                                         <p>${item.image_title}</p>
                                                                     
                                     </div>
