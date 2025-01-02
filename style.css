@@ -1815,7 +1815,14 @@ button.clear_all{
   }
 
   .goal_active{
-    
+    index: 2;
+    font-size: 14px;
+    margin: 0px;
+    position: relative;
+    min-width: 328px;
+    padding: 0px 0px 128px;
+    max-height: calc(-85px + 100vh);
+    overflow: auto;
   }
 }
 
