@@ -1055,6 +1055,9 @@ button.clear_all{
   display: initial;
 }
 
+.arrows_whole_browse{
+  display: none;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -1205,6 +1208,10 @@ button.clear_all{
     display: none;
   }
 
+  .arrows_whole_browse{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1235,6 +1242,7 @@ button.clear_all{
     padding: 8px;
   }
 
+
   .browse_arrow {
     margin-top: 4px;
     margin-bottom: 8px;
@@ -1251,9 +1259,19 @@ button.clear_all{
     display: none;
   }
 
+  .arrows_whole_browse{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
+
+  .arrows_whole_browse{
+    margin-bottom: 16px;
+    padding: 0px 0px 0px 8px;
+  }
+
   .header_there{
     padding: 4px 48px 4px 48px;
   }
@@ -1262,7 +1280,7 @@ button.clear_all{
     display: none;
   }
   .browse{
-    padding: 32px 46px 16px 45px;
+    padding: 32px 48px 16px 40px;
   }
 
   .course_div{
@@ -1433,6 +1451,30 @@ button.clear_all{
    .filter_two {
     display: none;
   }
+
+  .browse_arrow{
+    display: none;
+  }
+
+  .arrows_whole_browse{
+    display: flex;
+  }
+
+  ._a_browse a{
+    margin-right: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .right_arrow svg{
+    margin-right: 16px;
+  }
+  
+  
 }
 
 @media screen and (min-width:1036px) {
@@ -1443,6 +1485,9 @@ button.clear_all{
     display: none;
   }
   .filter_two {
+    display: none;
+  }
+  .browse_arrow{
     display: none;
   }
 
@@ -1463,6 +1508,12 @@ button.clear_all{
     height: 40px;
     line-height: 24px;
     position: relative;
+  }
+
+  .join_free{
+    margin-left: auto;
+    min-width: 250px;
+    float: right;
   }
 
   .universities{
@@ -1598,6 +1649,7 @@ button.clear_all{
       position: relative;
       max-width: 600px;
       color: rgb(219, 224, 225);
+      width: 455px;
   }
 
   .form input{
@@ -1659,11 +1711,20 @@ button.clear_all{
   .topics{
     margin: 0px 26.938px 75px 26.938px;
   }
-.explore_free_course{
-  flex-grow: 0;
-  flex-basis: 75%;
-  max-width: 75%;
-}
+  .explore_free_course{
+    flex-grow: 0;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .browse_arrow{
+    display: none;
+  }
+
+  .computer_div{
+    margin-bottom: 4px;
+  }
+
+
 }
 
 
