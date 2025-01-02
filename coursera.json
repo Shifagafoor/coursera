@@ -4,7 +4,7 @@
         {
             "id":1,
             "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/e7/b34332a4c9434aacd529defcf050da/00-coursera-logotipo.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…60x360.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/36/18a6102bea45b280d5f182141bb441/uc-chile360x360.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Pontificia Universidad Católica de Chile",
             "main_title":"English for Common Interactions in the Workplace: Basic Level",
             "rating":"4.7",
@@ -23,7 +23,7 @@
         {
             "id":2,
             "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/59/630408b17e41429a019ada61f22bc8/Courses-Project-images-06.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Coursera Project Network",
             "main_title":"Business Analysis & Process Management",
             "skills_gain":"Business Analysis, Business Process Management",
@@ -42,8 +42,8 @@
 
         {
             "id":3,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/da/c8df3880a940c8a4bb5e7467eb202a/wordpress_logo.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Coursera Project Network",
             "main_title":"Build a free website with WordPress",
             "skills_gain":"Creativity, Web Design, Web Development",
@@ -62,8 +62,8 @@
 
         {
             "id":4,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/64/4a8b13f0e64dbdb41d587c7cea1103/excel-logo-4-.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Coursera Project Network",
             "main_title":"Build a free website with WordPress",
             "skills_gain":"Data Analysis, Microsoft Excel, Data Management, Leadership and Management",
@@ -82,8 +82,8 @@
 
         {
             "id":5,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…a-cert.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/fc/c1b8dfbac740999b6256aca490de43/Python-Image.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"University of Pennsylvania",
             "main_title":"English for Career Development",
             "skills_gain":"Business Communication, Human Resources, Human Resources Operations, Application Development, People Management",
@@ -102,8 +102,8 @@
 
         {
             "id":6,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…Square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/bb/62e6a0120b11e6bc32c330496bd91a/Career-Development.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/a2/66aaaad14d426fa9798ed714b3d0e5/UniversityofPennsylvania_Vertical_RGB_coursera-cert.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"IBM",
             "main_title":"Python for Data Science, AI & Development",
             "skills_gain":"Computer Programming, Data Analysis, Python Programming",
@@ -122,8 +122,8 @@
 
         {
             "id":7,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…a_logo.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/7b/3030708c3111e5ae965dd3ea8cdc5d/________03.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/79/ef4a80c5a111e5a5ce35080560fd45/coursera_logo.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Yonsei University",
             "main_title":"First Step Korean",
             "skills_gain":"Culture, Writing",
@@ -142,8 +142,8 @@
 
         {
             "id":8,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ac/3285d972fe420ea24ea3cd8354fa9b/space-grey-ipad-air-with-graph-on-brown-wooden-table-187041.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Coursera Project Network",
             "main_title":"Investment Risk Management",
             "skills_gain":"Leadership and Management, Risk Management",
@@ -162,8 +162,8 @@
 
         {
             "id":9,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…_large.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/6f/e2514b11a94e01868350b10d65c8a4/Logo_Financial-Markets.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/b4/339da416653830d015f5a179f864e1/square_logo_large.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Yale University",
             "main_title":"Financial Markets",
             "skills_gain":"Finance, Risk Management, Banking, Behavioral Economics, Critical Thinking, Financial Analysis, Innovation, Regulations and Compliance, Underwriting ",
@@ -182,8 +182,8 @@
 
         {
             "id":10,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…square.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/c8/5bae18bb5d475d926526e6e8ac3cc6/maryland-cybersecurity-for-everyone-1-.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Coursera Project Network",
             "main_title":"Investment Risk Management",
             "skills_gain":"Leadership and Management, Risk Management",
@@ -202,8 +202,8 @@
 
         {
             "id":11,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…x500px.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/88/ebc021015445b3be6555240ed48aa8/CTT_course-image_Coursera.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b1/f66aa00aa811e8b14d27d7114bc00b/ImperialCollegeLondon_BLUE_500x500px.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Imperial College London",
             "main_title":"Creative Thinking: Techniques and Tools for Success",
             "skills_gain":"Leadership and Management, Risk Management",
@@ -222,8 +222,8 @@
 
         {
             "id":12,
-            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…ress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
-            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilitie…7d6bc/.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
+            "main_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/3f/e014c0ba7811e5a05e970d8586e01d/___-1.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&q=50&fit=crop",
+            "local_link":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/38/d88a069e4cce7bfd0acb86c4c7d6bc/.png?auto=format%2Ccompress&dpr=3&w=24&h=24",
             "image_title":"Peking University",
             "main_title":"Chinese for Beginners",
             "rating":"4.8",

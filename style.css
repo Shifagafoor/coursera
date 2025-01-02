@@ -323,11 +323,15 @@ button.join {
 .common {
   padding: 0px 0px 24px 0px;
 }
-
+.common_hover{
+  transform: scale(1.03);
+  box-shadow: 0 0 40px -8px rgb(0 0 0 / 16%),0 0 24px -16px rgb(0 0 0 / 16%);
+}
 .process {
   padding: 8px;
   border: 2px solid rgb(232, 238, 247);
   border-radius: 16px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .workplace {
