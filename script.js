@@ -29,7 +29,6 @@ fetch("./coursera.json")
     // console.log("content", data.courses[0]);
     data.courses.forEach((item) => {
       // console.log(item)
-
       const english_whole = document.querySelector(".english_whole ul");
       const card = document.createElement("li");
       card.innerHTML = `
@@ -127,7 +126,7 @@ computer_div.forEach((divd)=>{
 
 
 const explore = document.querySelector(".explore-btn")
-const goal = document.querySelector(".goal")
+const goal = document.querySelector(".goals")
 explore.addEventListener("click", () => {
   console.log("click");
   goal.classList.toggle("goal_active");

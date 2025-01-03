@@ -1728,11 +1728,6 @@ button.clear_all{
     margin-bottom: 4px;
   }
 
-  .goals{
-    width: 100%;
-    list-style-type: none;
-    padding: 0px;
-  }
   
   .earn_degree{
     box-sizing: border-box;
@@ -1814,8 +1809,36 @@ button.clear_all{
     vertical-align: middle;
   }
 
+  .new_career{
+    padding: 15px 23px;
+  }
+  .goal_parent{
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    top: 65px;
+    left: 0;
+    z-index: 3000;
+    width: 100vw;
+    height: calc(100% - 65px);
+  }
+
+  .goals{
+    display: none;
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    top: -12px;
+    background-color: #fff;
+    min-height: 575px;
+    min-width: 280px;
+    padding: 0px;
+    left: 85.1094px;
+    z-index: 30001;
+  }
+
+  
   .goal_active{
-    index: 2;
+    display: inline;
     font-size: 14px;
     margin: 0px;
     position: relative;
@@ -1824,6 +1847,8 @@ button.clear_all{
     max-height: calc(-85px + 100vh);
     overflow: auto;
   }
+ 
+
 }
 
 
