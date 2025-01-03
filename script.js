@@ -123,34 +123,31 @@ async function updateCard(courses) {
   });
 }
 
-// function getChecked() {
-//   const CheckedInputs = document.querySelectorAll("input");
+// filter
+const inputNodeList = document.querySelectorAll(".tech input");
+console.log(inputNodeList);
+async function getChecked() {
+  let ClickedArray = [];
+  let inputNodeListArray = Array.from(inputNodeList);
+  ClickedArray = inputNodeListArray.filter((item) => item.checked == true);
+  let mapd = ClickedArray.map((i) => i.id);
+  console.log("mapd", mapd);
+  filter(mapd);
+}
 
-//   console.log(CheckedInputs);
-// }
+inputNodeList.forEach((inputEle) => {
+  inputEle.addEventListener("click", () => {
+    getChecked();
+  });
+});
+let filterdArray = []
+function filter(mapd) {
+  Fullcourses.forEach((course)=>{
+filterdArray = course.filter()
+  })
+}
 
-// getChecked();
-
-// let checkedArray = [];
-
-// const computer_div = document.querySelectorAll(" .checkbox");
-// console.log(computer_div);
-// computer_div.forEach((divd) => {
-//   checkedArray = [];
-//   divd.addEventListener("click", (e) => {
-//     console.log(e.target.checked);
-//     if (e.target.checked) {
-//       checkedArray.push(e.target.id);
-//     }
-//     console.log(checkedArray)
-//     getChecked();
-//   });
-// });
-
-
-
-
-
+// btns
 
 const explore = document.querySelector(".explore-btn");
 const goal = document.querySelector(".goals");

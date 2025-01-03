@@ -1273,6 +1273,8 @@ button.clear_all{
 
 @media screen and (min-width: 1024px) {
 
+  
+
   .arrows_whole_browse{
     display: none;
   }
@@ -1286,6 +1288,16 @@ button.clear_all{
   }
   .browse{
     padding: 32px 48px 16px 44px;
+    margin-top: 0;
+  }
+  .browse_arrow{
+    margin-top: 0;
+  }
+  .course_cataloge{
+    margin-top: 4px;
+  }
+  .explore_free_course{
+    padding: 8px 7px;
   }
 
   .course_div{
@@ -1316,7 +1328,7 @@ button.clear_all{
     font-weight: 600;
     letter-spacing: -0.1px;
     line-height: 28px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
     font-family: "project";
   }
   .computer{
@@ -1333,7 +1345,7 @@ button.clear_all{
 
   .computer_div{
     display: flex;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
   }
 
   .whole_business{
@@ -1433,7 +1445,11 @@ button.clear_all{
   }
 
   .common{
-    padding: 24px 0px;
+    /* padding: 24px 0px; */
+    padding-bottom: 24px;
+  }
+  .cataloge{
+    margin-bottom: 12px;
   }
 
   .english_whole ul {
