@@ -1253,7 +1253,8 @@ button.clear_all{
     padding: 0 8px;
   }
   .net{
-    gap: unset;
+    gap: 4px;
+    padding: 8px;
   }
 
   .filter_by{
@@ -1262,6 +1263,7 @@ button.clear_all{
   .header_individual{
     display: none;
   }
+
 
   .arrows_whole_browse{
     display: none;
@@ -1283,7 +1285,7 @@ button.clear_all{
     display: none;
   }
   .browse{
-    padding: 32px 48px 16px 40px;
+    padding: 32px 48px 16px 44px;
   }
 
   .course_div{
@@ -1291,7 +1293,7 @@ button.clear_all{
   }
 
   .filter_by{
-    padding: 6px;
+    padding: 8px 8px 8px 8px;
     box-sizing: border-box;
     flex-basis: 25%;
     line-height: 24px;
@@ -1299,7 +1301,7 @@ button.clear_all{
   }
 
   .data_science{
-    margin-top: 4px;
+    margin-top: 1px;
   }
 
   .filter_by{
@@ -1331,6 +1333,7 @@ button.clear_all{
 
   .computer_div{
     display: flex;
+    margin-bottom: 4px;
   }
 
   .whole_business{
