@@ -1815,7 +1815,7 @@ button.clear_all{
   .goal_parent{
     position: fixed;
     background-color: rgba(0, 0, 0, .7);
-    top: 65px;
+    top: 105px;
     left: 0;
     z-index: 3000;
     width: 100vw;
