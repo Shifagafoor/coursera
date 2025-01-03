@@ -131,3 +131,10 @@ explore.addEventListener("click", () => {
   console.log("click");
   goal.classList.toggle("goal_active");
 });
+
+explore.addEventListener("mouseenter",() => {
+  goal.classList.add("goal_active")
+});
+explore.addEventListener("mouseleave",() => {
+  goal.classList.remove("goal_active")
+});

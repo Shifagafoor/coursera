@@ -1577,7 +1577,6 @@ button.clear_all{
   }
   .coursera_img_two{
     width: 127px;
-    /* height: 32px; */
     padding-right: 16px;
   }
   .container_login{
@@ -1813,6 +1812,7 @@ button.clear_all{
     padding: 15px 23px;
   }
   .goal_parent{
+    display: none;
     position: fixed;
     background-color: rgba(0, 0, 0, .7);
     top: 105px;
@@ -1823,7 +1823,9 @@ button.clear_all{
   }
 
   .goals{
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
     width: 100%;
     list-style-type: none;
     position: absolute;
@@ -1838,16 +1840,22 @@ button.clear_all{
 
   
   .goal_active{
-    display: inline;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
     font-size: 14px;
     margin: 0px;
-    position: relative;
-    min-width: 328px;
+    position: absolute;
+    max-width: 328px;
     padding: 0px 0px 128px;
     max-height: calc(-85px + 100vh);
     overflow: auto;
   }
- 
+
+
+  body:has(.goal_active) .goal_parent{
+    display:block;
+  }
 
 }
 
