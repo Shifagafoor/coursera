@@ -1044,7 +1044,7 @@ button.clear_all{
 }
 
 .filter_button{
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .filter_two_active{
@@ -1272,8 +1272,7 @@ button.clear_all{
 @media screen and (min-width: 1024px) {
 
   .arrows_whole_browse{
-    margin-bottom: 16px;
-    padding: 0px 0px 0px 8px;
+    display: none;
   }
 
   .header_there{
@@ -1456,14 +1455,6 @@ button.clear_all{
     display: none;
   }
 
-  .browse_arrow{
-    display: none;
-  }
-
-  .arrows_whole_browse{
-    display: flex;
-  }
-
   ._a_browse a{
     margin-right: 16px;
     font-size: 16px;
@@ -1491,14 +1482,17 @@ button.clear_all{
   .filter_two {
     display: none;
   }
-  .browse_arrow{
-    display: none;
-  }
 
 }
 @media screen and (min-width:1061px) {
   .header_there{
     display: none;
+  }
+
+  .arrows_whole_browse{
+    margin-bottom: 16px;
+    padding: 0px 0px 0px 8px;
+    display: flex;
   }
 
   .header_individual{
