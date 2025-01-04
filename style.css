@@ -699,7 +699,8 @@ button.join {
 }
 
 .faq.show .arrow_ {
-  transform: rotate(90deg);
+  transform: rotate(0deg);
+
 }
 
 .subject_p a {
@@ -731,6 +732,7 @@ button.join {
   font-size: 16px;
   height: 24px;
   width: 24px;
+  transform: rotate(90deg);
 }
 
 .content_course {
