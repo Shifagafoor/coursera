@@ -162,3 +162,4 @@ explore.addEventListener("mouseenter", () => {
 explore.addEventListener("mouseleave", () => {
   goal.classList.remove("goal_active");
 });
+
