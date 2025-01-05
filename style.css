@@ -1275,9 +1275,7 @@ button.clear_all{
 }
 
 @media screen and (min-width: 1024px) {
-
   
-
   .arrows_whole_browse{
     display: none;
   }
@@ -1308,7 +1306,7 @@ button.clear_all{
   }
 
   .filter_by{
-    padding: 8px 8px 8px 8px;
+    padding: 7px 8px 8px 8px;
     box-sizing: border-box;
     flex-basis: 25%;
     line-height: 24px;
@@ -1331,7 +1329,7 @@ button.clear_all{
     font-weight: 600;
     letter-spacing: -0.1px;
     line-height: 28px;
-    margin-bottom: 31px;
+    margin-bottom: 32px;
     font-family: "project";
   }
   .computer{
@@ -1413,6 +1411,8 @@ button.clear_all{
     font-weight: 400;
     line-height: 24px;
     font-family: "pro";
+    margin-left: 1px;
+
   }
 
   .tech{
@@ -1449,13 +1449,18 @@ button.clear_all{
   }
 
   .common{
+    padding:0;
     padding-bottom: 24px;
   }
   .cataloge{
-    margin-bottom: 12px;
+    margin-bottom: 0;
   }
 
+  .course_cataloge h2{
+    margin-bottom: 36px;
+  }
   .english_whole ul {
+    padding-left: 6px;
     margin-bottom: 44px;
   }
 
@@ -1493,6 +1498,18 @@ button.clear_all{
   
 }
 
+@media screen and (min-width:1025px) {
+  .arrows_whole_browse{
+    margin-bottom: 8px;
+    padding: 0px 0px 0px 8px;
+    display: flex;
+  }
+
+  .browse_arrow{
+    display: none;
+  }
+}
+
 @media screen and (min-width:1036px) {
   .common{
     padding: 24px 6px;
@@ -1503,6 +1520,9 @@ button.clear_all{
   .filter_two {
     display: none;
   }
+  .browse_arrow{
+    display: none;
+  }
 
 }
 @media screen and (min-width:1061px) {
@@ -1510,11 +1530,6 @@ button.clear_all{
     display: none;
   }
 
-  .arrows_whole_browse{
-    margin-bottom: 16px;
-    padding: 0px 0px 0px 8px;
-    display: flex;
-  }
 
   .header_individual{
     display: inline;
