@@ -153,7 +153,7 @@ function filter(mapd) {
 
   Fullcourses.forEach((course) => {
     // console.log(course.subject  ,  mapd)
-    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.Learning_Product.toUpperCase())||mapd.includes(course.Level.toUpperCase())||mapd.includes(course.Learning_Product.toUpperCase())||mapd.includes(course.Duration.toUpperCase())||mapd.includes(course.Skills.toUpperCase())||mapd.includes(course.Subtitles.toUpperCase())||mapd.includes(course.Educator.toUpperCase())) {
+    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.learning_product.toUpperCase())||mapd.includes(course.level.toUpperCase())||mapd.includes(course.duration.toUpperCase())||mapd.includes(course.skills.toUpperCase())||mapd.includes(course.subtitles.toUpperCase())||mapd.includes(course.educator.toUpperCase())) {
       filterdArray.push(course) 
     }
   })
