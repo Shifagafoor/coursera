@@ -158,10 +158,16 @@ function filter(mapd) {
     }
   })
   english_whole.innerHTML = ""; 
-  updateCard(filterdArray)
+
+  if(filterdArray.length > 0) {
+    updateCard(filterdArray)
+  }else{
+    updateCard(Fullcourses);
+  }
   console.log("FilArray",filterdArray)
 
 }
+
 
 // btns
 
@@ -178,3 +184,11 @@ explore.addEventListener("mouseenter", () => {
 explore.addEventListener("mouseleave", () => {
   goal.classList.remove("goal_active");
 });
+
+// const careers = document.querySelector(".careers a")
+// careers.addEventListener("mouseenter", () => {
+//   careers.classList.add("careers");
+// });
+// careers.addEventListener("mouseleave", () => {
+//   careers.classList.remove("common_hover");
+// }); 
