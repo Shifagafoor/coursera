@@ -153,7 +153,7 @@ function filter(mapd) {
 
   Fullcourses.forEach((course) => {
     // console.log(course.subject  ,  mapd)
-    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.Level.toUpperCase())) {
+    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.Learning_Product.toUpperCase())||mapd.includes(course.Level.toUpperCase())) {
       filterdArray.push(course) 
     }
   })
