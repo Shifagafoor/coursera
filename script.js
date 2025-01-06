@@ -130,7 +130,7 @@ async function getChecked() {
   let ClickedArray = [];
   let inputNodeListArray = Array.from(inputNodeList);
   ClickedArray = inputNodeListArray.filter((item) => item.checked == true);
-  let mapd = ClickedArray.map((i) => i.id);
+  let mapd = ClickedArray.map((i) => i.id.toUpperCase());
   console.log("mapd", mapd);
   filter(mapd);
 }
@@ -140,11 +140,21 @@ inputNodeList.forEach((inputEle) => {
     getChecked();
   });
 });
-let filterdArray = []
+  let filterdArray = []
+
 function filter(mapd) {
-  Fullcourses.forEach((course)=>{
-filterdArray = course.filter()
+   filterdArray = []
+
+  Fullcourses.forEach((course) => {
+    // console.log(course.subject  ,  mapd)
+    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())) {
+      filterdArray.push(course) 
+    }
   })
+  english_whole.innerHTML = ""; 
+  updateCard(filterdArray);
+  console.log("FilArray",filterdArray);
+
 }
 
 // btns
@@ -162,4 +172,3 @@ explore.addEventListener("mouseenter", () => {
 explore.addEventListener("mouseleave", () => {
   goal.classList.remove("goal_active");
 });
-
