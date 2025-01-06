@@ -32,6 +32,7 @@ async function fetchData() {
     console.log("data:)", data.courses);
     Fullcourses = data.courses;
     updateCard(Fullcourses);
+
     return Fullcourses;
   } catch (error) {
     console.error("Error fetching data:", error);
@@ -40,13 +41,18 @@ async function fetchData() {
 
 fetchData();
 
+
+const english_whole = document.querySelector(".english_whole ul");
+
 async function updateCard(courses) {
   console.log(courses);
 
   courses.forEach((item) => {
     // console.log(item)
-    const english_whole = document.querySelector(".english_whole ul");
+  
     const card = document.createElement("li");
+  console.log("hi")
+  console.log(card)
     card.innerHTML = `
           <div class="common">
               <div class="process">
@@ -118,7 +124,7 @@ async function updateCard(courses) {
       });
       cards.addEventListener("mouseleave", () => {
         cards.classList.remove("common_hover");
-      });
+      }); 
     });
   });
 }
@@ -152,8 +158,8 @@ function filter(mapd) {
     }
   })
   english_whole.innerHTML = ""; 
-  updateCard(filterdArray);
-  console.log("FilArray",filterdArray);
+  updateCard(filterdArray)
+  console.log("FilArray",filterdArray)
 
 }
 
