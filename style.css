@@ -1302,7 +1302,7 @@ button.clear_all{
   }
 
   .course_div{
-    padding: 36px 40px;
+    padding: 36px 48px;
   }
 
   .filter_by{
@@ -1670,6 +1670,15 @@ button.clear_all{
     font-family: "project";
   }
 
+  .careers a:hover{
+    color: rgb(0, 86, 210);
+  }
+
+  .log_in:hover{
+    color: rgb(0, 86, 210);
+    text-decoration: underline;
+  }
+
   .form{
       width: 348px;
       background-color: rgb(255, 255, 255);
@@ -1893,7 +1902,7 @@ button.clear_all{
   .course_cataloge h2{
     margin-top: 8px;
     margin-bottom: 16px;
-    margin-left: 4px;
+    margin-left: 8px;
   }
 
   .explore_free_course{
@@ -1961,7 +1970,7 @@ button.clear_all{
   .course_cataloge h2{
     margin-top: 8px;
     margin-bottom: 16px;  
-    margin-left: 3px;
+    margin-left: 8px;
   }
 
 }

@@ -192,3 +192,4 @@ explore.addEventListener("mouseleave", () => {
 // careers.addEventListener("mouseleave", () => {
 //   careers.classList.remove("common_hover");
 // }); 
+
