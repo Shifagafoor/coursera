@@ -152,7 +152,6 @@ function filter(mapd) {
    filterdArray = []
 
   Fullcourses.forEach((course) => {
-    // console.log(course.subject  ,  mapd)
     if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.learning_product.toUpperCase())||mapd.includes(course.level.toUpperCase())||mapd.includes(course.duration.toUpperCase())||mapd.includes(course.skills.toUpperCase())||mapd.includes(course.subtitles.toUpperCase())||mapd.includes(course.educator.toUpperCase())) {
       filterdArray.push(course) 
     }
@@ -184,12 +183,3 @@ explore.addEventListener("mouseenter", () => {
 explore.addEventListener("mouseleave", () => {
   goal.classList.remove("goal_active");
 });
-
-// const careers = document.querySelector(".careers a")
-// careers.addEventListener("mouseenter", () => {
-//   careers.classList.add("careers");
-// });
-// careers.addEventListener("mouseleave", () => {
-//   careers.classList.remove("common_hover");
-// }); 
-
