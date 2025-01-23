@@ -39,6 +39,7 @@ async function fetchData() {
   }
 }
 
+
 fetchData();
 
 
@@ -48,7 +49,6 @@ async function updateCard(courses) {
   console.log(courses);
 
   courses.forEach((item) => {
-    // console.log(item)
   
     const card = document.createElement("li");
   console.log("hi")
@@ -136,9 +136,9 @@ async function getChecked() {
   let ClickedArray = [];
   let inputNodeListArray = Array.from(inputNodeList);
   ClickedArray = inputNodeListArray.filter((item) => item.checked == true);
-  let mapd = ClickedArray.map((i) => i.id.toUpperCase());
-  console.log("mapd", mapd);
-  filter(mapd);
+  let filt = ClickedArray.map((i) => i.id.toUpperCase());
+  console.log("filt", filt);
+  filter(filt);
 }
 
 inputNodeList.forEach((inputEle) => {
@@ -148,11 +148,11 @@ inputNodeList.forEach((inputEle) => {
 });
   let filterdArray = []
 
-function filter(mapd) {
+function filter(filt) {
    filterdArray = []
 
   Fullcourses.forEach((course) => {
-    if (mapd.includes(course.subject.toUpperCase())||mapd.includes(course.language.toUpperCase())||mapd.includes(course.learning_product.toUpperCase())||mapd.includes(course.level.toUpperCase())||mapd.includes(course.duration.toUpperCase())||mapd.includes(course.skills.toUpperCase())||mapd.includes(course.subtitles.toUpperCase())||mapd.includes(course.educator.toUpperCase())) {
+    if (filt.includes(course.subject.toUpperCase())||filt.includes(course.language.toUpperCase())||filt.includes(course.learning_product.toUpperCase())||filt.includes(course.level.toUpperCase())||filt.includes(course.duration.toUpperCase())||filt.includes(course.skills.toUpperCase())||filt.includes(course.subtitles.toUpperCase())||filt.includes(course.educator.toUpperCase())) {
       filterdArray.push(course) 
     }
   })
