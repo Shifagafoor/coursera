@@ -1047,15 +1047,12 @@ button.clear_all{
     display: flex;
     justify-content: space-evenly;
 }
-
 .filter_two{
   display: none;
 }
-
 .filter_button{
   margin-bottom: 40px;
 }
-
 .filter_two_active{
   background-color: white;
   position: fixed;
@@ -1067,10 +1064,10 @@ button.clear_all{
   z-index: 4000;
   display: initial;
 }
-
 .arrows_whole_browse{
   display: none;
 }
+
 
 
 @media screen and (min-width: 600px) {
