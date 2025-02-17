@@ -1124,13 +1124,14 @@ button.clear_all{
     min-height: 200px;
     height: 100%;
   }
+  
   .english_whole ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
-  
+
   .english_whole li {
     flex-grow: 0;
     flex-basis: 50%;
