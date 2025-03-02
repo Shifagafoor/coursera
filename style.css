@@ -1131,14 +1131,12 @@ button.clear_all{
     flex-wrap: wrap;
     box-sizing: border-box;
   }
-
   .english_whole li {
     flex-grow: 0;
     flex-basis: 50%;
     max-width: 50%;
     margin-bottom: 24px;
   }
-  
   .common {
     padding: 0 6px 24px;
   }
@@ -1176,14 +1174,12 @@ button.clear_all{
   .questions {
     margin: 0px 30px;
   }
-
   .started {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 80px 6px 8px 6px;
   }
-
   .aws ul {
     margin-right: 20px;
   }
@@ -1206,28 +1202,22 @@ button.clear_all{
   .aws.learn {
     padding: 0;
   }
-
   .aws.learn .apple {
     display: flex;
     flex-direction: column;
   }
-
   .type_apps {
     padding: 16px 0;
   }
-
   .filter_by{
     display: none;
   }
-
   .header_individual{
     display: none;
   }
-
   .arrows_whole_browse{
     display: none;
   }
-
 }
 
 @media screen and (min-width: 768px) {
